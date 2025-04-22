@@ -54,8 +54,7 @@ bool isRoomDark() {
 
 
     Serial.print("Button: ");
-=======
-// ===============================
+  }
 // Manual Switch Control – Student 2
 bool isButtonActivated() {
   bool state = digitalRead(buttonPin);
