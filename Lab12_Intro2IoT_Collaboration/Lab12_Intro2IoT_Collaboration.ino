@@ -47,14 +47,7 @@ bool isRoomDark() {
     // <-- incorrect for now
   }
 }
-  // ===============================
-  // Manual Switch Control – Student 2
-  bool isButtonActivated() {
-    bool state = digitalRead(buttonPin);
 
-
-    Serial.print("Button: ");
-  }
 // Manual Switch Control – Student 2
 bool isButtonActivated() {
   bool state = digitalRead(buttonPin);
